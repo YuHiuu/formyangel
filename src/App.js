@@ -35,7 +35,7 @@ function App() {
   const [isButtonMoving, setIsButtonMoving] = useState(false); // State to control button movement
   const [showPopup, setShowPopup] = useState(false); // State for showing the popup
   const audioRef = useRef(null); // Menggunakan ref untuk mengakses elemen audio
-  const correctKey = "istillloveyouadine"; // Key yang benar untuk membuka surat
+  const correctKey = "istillloveyou"; // Key yang benar untuk membuka surat
 
   const [showApology, setShowApology] = useState(false);
 
@@ -108,7 +108,7 @@ function App() {
                   onClick={handleUnlock}
                   className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-2xl text-lg px-5 py-2.5 text-center"
                 >
-                  Buka Surat
+                  Buka Hadiah
                 </button>
               </div>
             </div>
